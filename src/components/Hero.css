@@ -1,0 +1,14 @@
+.hero {
+  background-image: url("../assets/guillermo-ferla-Oze6U2m1oYU-unsplash.jpg");
+  background-position: contain;
+  background-repeat: none;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(1);
+  justify-content: start;
+  align-items: center;
+}
+
+.hero-content {
+  margin-left: 50px;
+}
