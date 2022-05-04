@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Card, CardContent, Grid, Typography } from "@mui/material";
+import { Box, Card, CardContent, Grid, Typography } from "@mui/material";
 import { FiArrowDown, FiArrowUpRight } from "react-icons/fi";
 
 function TopCoins() {
@@ -25,12 +25,13 @@ function TopCoins() {
 
   return (
     <div className="topCoins">
-      <Typography variant="h2" sx={{ textAlign: "center" }}>
+      <Typography variant="h2" sx={{ textAlign: "center", fontFamily: 'Josefin Sans' }}>
         Today's Top Coins
       </Typography>
-      <Grid container spacing={2} mt={2} mb={2}>
-        <Grid item xs={12} md={4} justifyContent="center">
-          <Card>
+
+      <Grid container mt={2} mb={2}>
+        <Grid item xs={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card sx={{ width: '350px' }}>
             <CardContent sx={{ textAlign: "center" }}>
               <img src={data[0].image} alt="" className="coin-img" />
               <div>
@@ -51,8 +52,8 @@ function TopCoins() {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={12} md={4}>
-          <Card>
+        <Grid item xs={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card sx={{ width: '350px' }} >
             <CardContent sx={{ textAlign: "center" }}>
               <img src={data[1].image} alt="" className="coin-img" />
               <div>
@@ -73,8 +74,8 @@ function TopCoins() {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={12} md={4}>
-          <Card>
+        <Grid item xs={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+          <Card sx={{ width: '350px' }}>
             <CardContent sx={{ textAlign: "center" }}>
               <img src={data[2].image} alt="" className="coin-img" />
               <div>

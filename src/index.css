@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=PT+Sans:wght@700&display=swap");
+
 :root {
   --primary: #86ebd8;
 }
@@ -42,12 +44,18 @@ code {
 
 h1 {
   color: #fff;
-  font-size: 4rem;
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  font-family: "Josefin Sans";
+  font-weight: 800;
+  text-shadow: 2px 2px var(--primary);
 }
 
 h2 {
   color: #86ebd8;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-family: "Josefin Sans";
+  text-shadow: 2px 1px #000;
 }
 
 .coin-img {
@@ -56,4 +64,13 @@ h2 {
 
 .red {
   color: red;
+}
+
+/**COMPONENTS*/
+.topCoins {
+  margin: 50px 0;
+}
+
+.signup {
+  background-color: #000;
 }
