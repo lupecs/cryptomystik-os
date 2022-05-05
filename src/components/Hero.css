@@ -5,6 +5,7 @@
   height: 100vh;
   display: grid;
   align-items: center;
+  width: 100%;
 }
 
 .hero-left {
@@ -18,24 +19,3 @@
   align-items: center;
   justify-content: center;
 }
-/* 
-
-.hero .left {
-  padding: 1rem;
-}
-
-.hero .input-container {
-  padding: 1rem 0;
-}
-
-.hero .right {
-  padding: 1rem;
-}
-
-.hero .img-container {
-  width: 100%;
-}
-
-.hero img {
-  max-width: 88%;
-} */
