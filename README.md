@@ -1,7 +1,3 @@
-
-Crypto Mystik
-Crypto Mystik
-Mar 2022 - PresentMar 2022 - Present
 CryptoMystik is an AI-powered financial tool designed to predict cryptocurrency prices and provide market insights for traders and investors. It leverages machine learning to analyze market trends, helping users assess the value of various coins. Users can sign up to customize their portfolio, track selected cryptocurrencies, and access advanced analytics for informed decision-making.
 
 CryptoMystik is built using a modern tech stack optimized for AI-driven financial predictions and real-time data analysis. The stack includes:
