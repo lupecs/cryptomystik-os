@@ -9,3 +9,7 @@ def read_root():
 @app.get('/predict')
 def predict():
     return {"prediction": "This is where the prediction will be returned"}
+
+@app.get('/train')
+def train():
+    return {"message": "This is where the training will be triggered"}
