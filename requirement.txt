@@ -18,7 +18,11 @@ npx create-next-app@latest .
 
 pip install notebook
 
+1.
+.\venv\Scripts\activate
+
 pip install jupyterlab
 
+2.
 jupyter notebook
 
